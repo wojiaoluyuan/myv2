@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@master
-    - name: Build the Docker image
+    - name: Building the Docker image
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
       name: wojiaoluyuan/myv2
